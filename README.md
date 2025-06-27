@@ -1,4 +1,4 @@
-Motion Recognition with IMU Sensor Fusion
+##Motion Recognition with IMU Sensor Fusion
 This project implements a real-time gesture detection system using a Raspberry Pi paired with the Sense HAT. By combining readings from the accelerometer and gyroscope, the system can classify four distinct types of motion and display visual feedback on the onboard LED matrix.
 
 Overview
