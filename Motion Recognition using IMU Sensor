@@ -1,0 +1,10 @@
+This project involves building a real-time motion classification system using a Raspberry Pi and the Sense HAT. It uses accelerometer and gyroscope data to detect four motion types and displays the results through the LED matrix.
+
+Overview
+The system recognizes the following motion gestures:
+
+move_none
+move_circle
+move_shake
+move_twist
+A neural network model is trained on 1-second sequences (50 time steps, 6 features: accel + gyro) and then converted to TensorFlow Lite for deployment on Raspberry Pi.
